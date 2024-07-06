@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+ul li {
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    margin: 0 auto;
+    width: 1320px;
+}
+.row{
+    display: flex;
+}
+.logo img{
+    width: 100px;
+}
+ul li a{
+    margin-left: 10px;
+    margin-right: 10px;
+        color: white;
+    font-family: sans-serif;
+}
+ul li{
+    font-size: 18px;
+    color: white;
+    
+}
+header{
+    background-color: #232f3e;
+    height: 100px;
+}
+.text-center{
+    text-align: center;
+}
+.justiy-space-between{
+    justify-content: space-between;
+}
+.align-items-center{
+    align-items: center;
+}
+.dropdown{
+    position: relative;
+    transition: all 1s;
+}
+.dropdown:hover .dropdown-menu{
+    display: block;
+    color: aqua;
+}
+.dropdown-menu{
+    display: none;
+    position: absolute;
+    background-color: gray;
+    border-radius: 15px;
+    margin: 0;
+    width: 150px;
+    transition: all 1s;
+    padding: 10px 0;
+}
+.dropdown-menu ul li{
+    padding: 7px 0;
+}
+.dropdown-menu ul li a{
+    color:black;
+    text-align: center;
+}
+.dropdown-menu ul li:hover{
+
+    background-color: rgba(142, 142, 142, 0.595);
+    padding:6px ;
+    border-radius: 50px;
+}
+
+/* slider */
+.slider-main{
+    background-color: #e3e6e6;
+    width: 100%;
+    height: 500px;
+    padding: 50px;
+    margin-top: 5%;
+}
+.slider img{
+    width:100px;
+    height: 100%;
+    object-fit: cover;
+    
+}
+.slider{
+    width: 400px;
+    height: 400px;
+    padding: 50px;
+    background-color: white;
+    border-radius: 10px;
+}
+.owl-carousel .owl-prev{
+    position:absolute;
+    top:50%;
+    left:0%;
+    width:40px;
+    background-color: black !important;
+    height: 40px;
+    border-radius: 50%;
+    color: white !important;
+}
+.owl-carousel .owl-next{
+    position:absolute;
+    top:50%;
+    right:0%;
+    width:40px;
+    background-color: black !important;
+    height: 40px;
+    border-radius: 50%;
+    color: white !important;
+} 
+.owl-carousel .owl-dots .owl-dot{
+    width: 5px;
+    height: 5px;
+    position:relative;
+    left: 50%;
+    top: 90%;
+    background-color: black;
+    margin: 0 10px;
+}
+/* product */
+.product-main{
+    background-color: #e3e6e6;
+    width: 100%;
+    height: auto;
+    padding: 40px;
+}
+.grid-item{
+    border-radius: 10px;
+    padding: 10px;
+    background-color: white;
+}
+.cart-h4{
+    padding:10px 0;
+    font-size: 25px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+.cart-h3{
+    padding-bottom:10px;
+    font-size: 30px;
+}
+.grid-p{
+    padding-bottom:10px ;
+    font-size:18px ;
+}
+.grid-img{
+    width: 200px;
+    height: 200px;
+}
+.gird-text{
+    text-align: center;
+}
+.padding-10{
+    padding: 46px 0;
+}
+.cart-btn {
+    padding:30px 0;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 20px;
+    align-items: stretch;
+}
+
